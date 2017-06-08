@@ -17,11 +17,6 @@ module.exports = {
       },
       {
         enforce: 'pre',
-        test: /\.js$/,
-        loader: "source-map-loader"
-      },
-      {
-        enforce: 'pre',
         test: /\.tsx?$/,
         use: "source-map-loader"
       },
