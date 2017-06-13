@@ -37,7 +37,7 @@ export class SampleApp extends AppStation.App {
         this.onWidgetCallback = onWidgetCallback;
     }
 
-    public setOnFullscreenCallback(onFullScreenCallback: () => void): void{
+    public setOnFullScreenCallback(onFullScreenCallback: () => void): void{
         this.onFullScreenCallback = onFullScreenCallback;
     }
 }
